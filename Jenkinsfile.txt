@@ -16,7 +16,7 @@ stage('Build Code'){
 	
 stage('Run Tests') {
 steps {
-bat'mvn -f my-app/pom.xml test'
+bat 'mvn -f my-app/pom.xml test'
 }
 }
 }
