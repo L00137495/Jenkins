@@ -4,6 +4,7 @@ agent any
 // NOTE: This Maven tool must be configured
 // in the global configuration.
 tools{
+	JDK 'JDK'
 maven 'Maven'
 }
 stages{
